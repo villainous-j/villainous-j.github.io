@@ -7,20 +7,13 @@ h2 {
     font-variant: small-caps;
 }
 
-h3 {
-    /*font-size: 12pt;*/
-}
-
-li {
-    /*font-size: 12px;*/
-}
-
 .title {
     flex: 80%;
 }
 
 .date {
     flex: 20%;
+    min-width: 100px;
     text-align: right;
     padding-top: 2px;
     font-size: 11pt;
@@ -30,6 +23,14 @@ li {
     display: flex;
     flex-direction: row;
     max-width: 1024px;
+}
+
+.row-title-date {
+    display: flex;
+}
+
+.row-double-bullets {
+    display: flex;
 }
 
 .column-left {
@@ -47,7 +48,7 @@ li {
     border-left-color: black;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
     .row {
         flex-direction: column;
     }
@@ -59,9 +60,6 @@ li {
         border-left-style: none;
         padding-top: 0px;
         padding: 0px;
-    }
-    .date {
-        text-align: left;
     }
 }
 
