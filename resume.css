@@ -15,8 +15,6 @@ h2 {
     flex: 20%;
     min-width: 100px;
     text-align: right;
-    padding-top: 2px;
-    font-size: 11pt;
 }
 
 .row {
@@ -65,4 +63,5 @@ h2 {
 
 .column {
     flex: 50%;
+    font-size: unset;
 }
